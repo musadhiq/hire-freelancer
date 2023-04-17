@@ -116,3 +116,26 @@ export const PenTypes = [
       "Practice continuous feedback and knowledge sharing to accurately imitate common threat scenarios and maximize the impact of vulnerability detection.",
   },
 ];
+
+
+export const toolsUsing = [
+  {
+    type: "Web",
+    tools: [
+      "Zed Attack Proxy",
+      "Burp Suite",
+      "Nmap",
+      "Metasploit",
+      "Wireshark",
+      "SQLMap",
+    ],
+  },
+  {
+    type: "Mobile",
+    tools: ["Android Debug Bridge", "Drozer", "WhiteHat Security", "OWASP ZAP"],
+  },
+  {
+    type: "Api",
+    tools: ["Postman", "Insomnia", "Apache JMeter"],
+  },
+];

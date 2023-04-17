@@ -298,3 +298,32 @@ body {
   background-position: right top;
   background-size: 900px;
 } */
+.tools-item{
+  position: relative;
+}
+.tools-item::before{
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-40%);
+  left: -10px;
+  width: 8px;
+  height: 8px;
+  background: #485ED8;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+}
+.tool-0{
+  background-position: -85px -707px;
+}
+.tool-1{
+  background-position: -178px -707px;
+}
+.tool-2{
+  background-position: -264px -707px;
+}
+
+.c-input{
+  background-color: rgba(255, 255, 255, 0.02);
+  border: .5px solid gray;
+}
