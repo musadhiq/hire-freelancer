@@ -16,7 +16,7 @@ function HireNow() {
         your project requirements.
       </p>
       <button className="py-2 px-6 bg-[#485ED8] mt-8 rounded-md">
-        Let's get started now
+        Lets get started now
       </button>
     </div>
   );
