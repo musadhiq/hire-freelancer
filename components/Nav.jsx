@@ -10,7 +10,7 @@ function NavBar() {
     <nav className="flex justify-between p-1 md:p-4 mt-4">
       <Link
         href={"/"}
-        className="logo bg-white p-2 rounded-full w-10 h-10 md:w-12 md:h-12 overflow-hidden"
+        className="logo bg-gray-900 p-2 rounded-full w-10 h-10 md:w-12 md:h-12 overflow-hidden"
       >
         <Image
           src={navImage}
