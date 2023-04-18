@@ -12,8 +12,9 @@ function Services({ limit }) {
     <div className="services my-20">
       <div className="flex items-center gap-2">
         <div>
-          <h1 className="text-3xl font-semibold after-underline">
-            Our Security and Penetration Testing Services
+          <h1 className="text-4xl font-semibold after-underline">
+            Our <span className="text-[#485ED8]">Security</span> and Penetration
+            Testing Services
           </h1>
           <p className="mt-6 text-lg max-w-4xl">
             Collaborate with one of the top penetration testing companies in
@@ -22,7 +23,7 @@ function Services({ limit }) {
             simplistic, and safer user experiences.
           </p>
         </div>
-        <div>
+        <div className="hidden md:block">
           <Image src={roboImage} alt="robo" width={200} className="" />
         </div>
       </div>

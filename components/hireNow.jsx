@@ -3,7 +3,7 @@ import React from "react";
 function HireNow() {
   return (
     <div className="my-28 text-center">
-      <h1 className="text-4xl font-semibold">
+      <h1 className="text-3xl md:text-4xl font-semibold">
         Ready to Pentest with the <span className="text-[#485ED8]">Best </span>
         Security Professionals?
       </h1>

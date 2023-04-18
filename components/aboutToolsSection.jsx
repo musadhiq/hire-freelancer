@@ -7,7 +7,7 @@ import { toolsUsing } from "@/constants";
 function AboutTools() {
   return (
     <div className="my-24">
-      <h1 className="pt-5 text-4xl font-bold text-center">
+      <h1 className="pt-5 text-[1.7rem] md:text-4xl font-bold text-center">
         Penetration Testing <span className="text-[#485ED8]">Tools</span> We Use
       </h1>
       <p className="pt-4 text-center text-lg">
@@ -15,7 +15,7 @@ function AboutTools() {
         in various popular tools and technologies.
       </p>
       <div className="flex mt-10 justify-around items-end">
-        <div className="image-container w-96">
+        <div className="image-container w-96 hidden md:block">
           <Image src={Robo} alt="robo" />
         </div>
         <div className="tools flex-grow grid gap-4">
