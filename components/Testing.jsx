@@ -7,7 +7,7 @@ function Testing() {
     <div className="my-28">
       <div>
         <h1 className="text-3xl font-semibold my-4">
-          <span>Penetration</span> Testing Made Easy
+          <span className="text-[#485ED8]">Penetration</span> Testing Made Easy
         </h1>
         <p className="text-xl">
           We follow different penetration testing styles to cater to your unique
