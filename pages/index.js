@@ -16,9 +16,9 @@ export default function Home() {
       <Landing />
       <Services limit={6} />
       <Testing />
+      <JoinTeam />
       <AboutTools />
       <HireNow />
-      <JoinTeam />
       <Contact />
     </main>
   );

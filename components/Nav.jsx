@@ -19,10 +19,10 @@ function NavBar() {
         />
       </Link>
       <Link
-        href={"mailto:musadhiqmp@gmail.com"}
+        href={"/contact"}
         className="join px-4 py-2 bg-[#485ED8] rounded-lg shadow-lg h-fit flex"
       >
-        <span> Join with us</span>
+        <span>Contact Us</span>
       </Link>
       {/* <ul className=" gap-12 items-center justify-center text-lg hidden md:flex">
         {navLinks.map((link, index) => (

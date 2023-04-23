@@ -27,8 +27,8 @@ function JoinTeam() {
               consectetur adipisicing elit. Expedita, adipisci?
             </li>
             <li className="list-none">
-              <button className="bg-[#485ED8] text-white px-4 py-2 rounded-md mt-4">
-                Join with Us Now
+              <button className="py-2 px-6 bg-[#485ED8] mt-8 rounded-md">
+                Join with us
               </button>
             </li>
           </ul>
